@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width= device-width,initial-scale=1">
+  <link rel="shortcut icon" href="assets/img/cv.ico">
+  <link rel="stylesheet" href="assets/lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Melanie Le Bot, mon CV numérique !</title>
+  <META NAME="Description" CONTENT="Découvrez mon CV numérique en ligne !">
+  <script src="assets/js/analytics.js"></script>
+</head>
+<body class="text-center" data-ng-app="myCv" data-spy="scroll" data-target="#menu" data-ng-init="fr=true">
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" onclick="smoothScroll('#home')" href="#home" title="Accueil">Melanie Le Bot</a>
+          </div>
+          <div id="menu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a onclick="smoothScroll('#home')" href="#home" title="Accueil"><span data-ng-show="fr">Présentation</span><span data-ng-show="!fr">Presentation</span></a></li>
+              <li><a onclick="smoothScroll('#skills')" href="#skills" title="Compétences"><span data-ng-show="fr">Compétences</span><span data-ng-show="!fr">Skills</span></a></li>
+              <li><a onclick="smoothScroll('#career')" href="#career" title="Parcours"><span data-ng-show="fr">Parcours</span><span data-ng-show="!fr">Career</span></a></li>
+              <li><a onclick="smoothScroll('#files')" href="#files" title="Documents"><span data-ng-show="fr">Documents</span><span data-ng-show="!fr">Files</span></a></li>
+              <li><a onclick="smoothScroll('#hobbies')" href="#hobbies" title="Loisirs"><span data-ng-show="fr">Loisirs</span><span data-ng-show="!fr">Hobbies</span></a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div data-ng-include="'assets/view/fr.html'" data-ng-if="fr"></div>
+  </div>
+  <script type="text/javascript" src="assets/lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/lib/angular/angular.js"></script>
+  <script type="text/javascript" src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/smoothScroll.js"></script>
+  <script type="text/javascript" src="assets/js/progressbar.js"></script>
+  <script type="text/javascript" src="assets/js/multipleProgressbar.js"></script>
+  <script type="text/javascript" src="assets/js/timelineAnim.js"></script>
+</body>
+</html>

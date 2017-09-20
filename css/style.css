@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento|Press+Start+2P|VT323');
+
+body
+{
+  background-color: #575556;
+}
+*::before, *::after
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1, .navbar-brand
+{
+  font-family: 'Sacramento', cursive;
+}
+h2
+{
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 20px;
+}
+#skills h3
+{
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+}
+.navbar-fixed-top, .navbar-fixed-bottom
+{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 9998;
+}
+#home, #skills, #career, #files, #hobbies
+{
+  padding: 50px 0;
+}
+#home
+{
+  background-image: url("../img/background.jpg");
+  background-size: 100% 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-shadow: 0 0 10px #000;
+  color: #090000;
+}
+#home h2
+{
+  margin: 50px 0 50px 0;
+}
+#home p
+{
+  font-size: 18px;
+}
+#skills, #hobbies
+{
+  background-color: #733f86;
+}
+#skills h2, #hobbies h2
+{
+  color: #A41C22;
+}
+#hobbies img
+{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#career
+{
+  background-color: #A41C22;
+}
+#career h2
+{
+  color: #FFF;
+}
+#career p
+{
+  margin-bottom: 5px;
+}
+#files
+{
+  background-color: #414141;
+  color: #FFF;
+}
+#files h2
+{
+  color: #F4A426;
+}
+#files img
+{
+  border: 1px solid black;
+}
+.timeline
+{
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+.timeline::before
+{
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.tldate
+{
+  display: block;
+  width: 200px;
+  background: #414141;
+  border: 3px solid #212121;
+  color: #ededed;
+  margin: 0 auto;
+  padding: 3px 0;
+  font-weight: bold;
+  text-align: center;
+}
+.timeline li h3
+{
+  margin: 0;
+}
+.timeline li
+{
+  margin-bottom: 25px;
+  position: relative;
+}
+.timeline li::before, .timeline li::after
+{
+  content: " ";
+  display: table;
+}
+.timeline li::after
+{
+  clear: both;
+}
+.timeline-panel
+{
+  width: 30%;
+  margin-left: 15%;
+  background: #575556;
+  color: #FFF;
+  padding: 20px;
+  position: relative;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.timeline-panel::after
+{
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #575556;
+  border-right: 0 solid #575556;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.timeline-inverted .timeline-panel
+{
+  margin-left: 55%;
+}
+.timeline-inverted .timeline-panel::after
+{
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.tl-circ
+{
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  text-align: center;
+  background: #F4A426;
+  width: 35px;
+  height: 35px;
+  margin-left: -16px;
+  border: 3px solid #FAD397;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.tl-circ-left
+{
+  border-top-left-radius: 50%;
+}
+.tl-circ-right
+{
+  border-top-right-radius: 50%;
+}
+.meter
+{
+	height: 4px;
+	position: relative;
+	background: #555;
+  margin-bottom: 25px;
+  color: white;
+}
+.meter span {
+  display: block;
+  height: 4px;
+  background-color: #370d5c;
+  position: relative;
+  overflow: hidden;
+}
+.progressBar
+{
+  display: none;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    height: 500px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+.place {
+  font-size: 15px;
+  color: #f11812;
+}
+@media (max-width: 700px)
+{
+  .timeline::before
+  {
+    left: 5%;
+  }
+  .tldate
+  {
+    width: 100px;
+    margin: 5%;
+  }
+  .timeline-panel, .timeline-inverted .timeline-panel
+  {
+    width: 85%;
+    margin-left: 12%;
+  }
+  .timeline-panel::after
+  {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+  .tl-circ
+  {
+    left: 5%;
+  }
+}
+@media (max-width: 550px)
+{
+  .timeline-panel, .timeline-inverted .timeline-panel
+  {
+    width: 80%;
+    margin-left: 17%;
+  }
+}
+@media (max-width: 350px)
+{
+  h2
+  {
+    font-size: 26px;
+  }
+}

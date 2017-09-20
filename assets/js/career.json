@@ -1,0 +1,274 @@
+[
+  {
+    "isDate":true,
+    "year":"2017"
+  },
+  {
+    "isDate":false,
+    "study":true,
+    "title":"Congé parental ",
+    "place":"",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"2016"
+  },
+  {
+    "isDate":false,
+    "study":false,
+    "title":"Mars à Avril ",
+    "place":"Domidom Peronne (80)",
+    "data1":"Assistante de vie aux familles",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"2015"
+  },
+  {
+    "isDate":false,
+    "study":true,
+    "title":"Congé parental ",
+    "place":"",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"2014"
+  },
+  {
+    "isDate":false,
+    "study":false,
+    "title":"Mars à Avril ",
+    "place":"ADMR de Esmery Hallon (80)",
+    "data1":"Assistante de vie aux familles",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"Novembre 2013 à Juin 2014"
+  },
+  {
+    "isDate":false,
+    "study":true,
+    "title":"Formation ADVF (Assistante de vie aux familles)",
+    "place":"GRETA de Ham (80)",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"2013"
+  },
+  {
+    "isDate":false,
+    "study":false,
+    "title":"Stage de préparation à l'installation",
+    "place":"Chambre des métiers de l'Aisne (02)",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"2012 de Mai à Juillet"
+  },
+  {
+    "isDate":false,
+    "study":true,
+    "title":"Mise en rayon",
+    "place":"Leclerc Eppeville (80)",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"Décembre 2011 à Mars 2012"
+  },
+  {
+    "isDate":false,
+    "study":false,
+    "title":"Assistante maternelle",
+    "place":"Sommette Eaucourt (02)",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"Avril 2011 à Novembre 2011"
+  },
+  {
+    "isDate":false,
+    "study":true,
+    "title":"Congé parenal",
+    "place":"",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"Juillet 2010 à Janvier 2011"
+  },
+  {
+    "isDate":false,
+    "study":false,
+    "title":"Porteuse de pain",
+    "place":"Les douceurs de Lagny (boulangerie 60)",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"2010 Mars à Avril"
+  },
+  {
+    "isDate":false,
+    "study":true,
+    "title":"Assistante maternelle",
+    "place":"Sommette Eaucourt",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"2009"
+  },
+  {
+    "isDate":false,
+    "study":false,
+    "title":"Employé administrative",
+    "place":"I N P I Compiègne (60)",
+    "data1":"service reprographie",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"2008 Septembre"
+  },
+  {
+    "isDate":false,
+    "study":true,
+    "title":"Employé polivalent",
+    "place":"Intermarché Compiègne (60)",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"2008 Janvier à Avril"
+  },
+  {
+    "isDate":false,
+    "study":false,
+    "title":"Hotesse de caisse",
+    "place":"Supermarché Shopi choisy au bac (60)",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"2007 Décembre"
+  },
+  {
+    "isDate":false,
+    "study":true,
+    "title":"Opératrice sur lignes et controle qualité",
+    "place":"Bourgeois Channel Chamant (60)",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  },
+  {
+    "isDate":true,
+    "year":"Mars 2006 Novembre 2007"
+  },
+  {
+    "isDate":false,
+    "study":false,
+    "title":"Agent d'entretien",
+    "place":"Gepi Compiègne (60)",
+    "data1":"",
+    "data2":"",
+    "data3":"",
+    "titleEn":"",
+    "data1En":"",
+    "data2En":"",
+    "data3En":""
+  }
+]
